@@ -8,8 +8,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+<!--        <activity-->
+<!--            android:name=".TextSizeActivity"-->
+<!--            android:exported="false" />-->
         <activity
-            android:name=".MainActivity"
+            android:name=".TextViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

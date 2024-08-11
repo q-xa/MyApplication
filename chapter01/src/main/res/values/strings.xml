@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">移动应用开发学习app</string>
+    <string name="hello_world">你好，世界!</string>
 </resources>
