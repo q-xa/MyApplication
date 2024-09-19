@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:rotationX="0"
-    tools:context=".MainActivity">
-
-    <TextView
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/zhong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="我是于子淇，学号为2022010240233"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="中"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/bei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北"
+        android:layout_above="@+id/zhong"
+        android:layout_alignLeft="@+id/zhong"/>
+    <Button
+        android:id="@+id/nan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="南"
+        android:layout_below="@+id/zhong"
+        android:layout_alignLeft="@+id/zhong"/>
+    <Button
+        android:id="@+id/xi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="西"
+        android:layout_toLeftOf="@+id/zhong"
+        android:layout_alignTop="@+id/zhong"/>
+    <Button
+        android:id="@+id/dong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="东"
+        android:layout_toRightOf="@+id/zhong"
+        android:layout_alignTop="@+id/zhong"/>
+</RelativeLayout>
