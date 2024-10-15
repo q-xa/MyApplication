@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:stretchColumns="*">
+    <TableRow>
+        <ImageView
+            android:src="@drawable/mhy"
+            android:layout_span="4"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="用户:"/>
+        <EditText android:hint="请输入用户名" android:maxLength="20" android:layout_span="3" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="密码:"/>
+        <EditText android:hint="请输入密码" android:inputType="textPassword"  android:layout_span="3" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="性别:"/>
+        <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/sex" android:orientation="horizontal">
+            <RadioButton android:text="男"
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton android:text="女"
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="爱好:"/>
+        <CheckBox android:text="看小说"
+            android:id="@+id/computer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+        <CheckBox android:text="看电影"
+            android:id="@+id/software"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox android:text="看漫画"
+            android:id="@+id/communication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    <TableRow>
+        <TextView android:text="个人简介:"/>
+        <EditText
+            android:hint="请输入个人简介"
+            android:maxLines="5"
+            android:minLines="2"
+            android:scrollbars="vertical"
+            android:gravity="top"
+            android:layout_span="3"
+            android:background="@drawable/textborder"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="注册"
+            android:layout_gravity="center"
+            android:layout_span="4"
+            android:id="@+id/register"/>
+    </TableRow>
+</TableLayout>

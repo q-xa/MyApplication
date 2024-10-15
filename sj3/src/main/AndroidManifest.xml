@@ -9,22 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".sj2_5"
-            android:exported="false" />
-        <activity
-            android:name=".sj2_4"
-            android:exported="false" />
-        <activity
-            android:name=".sj2_2"
-            android:exported="false" />
-        <activity
-            android:name=".sj2_3"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".sj2_1"
+            android:name=".MainActivity2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
