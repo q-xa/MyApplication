@@ -8,7 +8,7 @@
     android:stretchColumns="*">
     <TableRow>
         <ImageView
-            android:src="@drawable/mhy"
+            android:src="@drawable/zc"
             android:layout_span="4"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"/>
@@ -36,17 +36,17 @@
         </RadioGroup>
     </TableRow>
     <TableRow>
-        <TextView android:text="爱好:"/>
-        <CheckBox android:text="看小说"
+        <TextView android:text="专业:"/>
+        <CheckBox android:text="网络工程"
             android:id="@+id/computer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"/>
-        <CheckBox android:text="看电影"
+        <CheckBox android:text="计算机科学与技术"
             android:id="@+id/software"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-        <CheckBox android:text="看漫画"
+        <CheckBox android:text="通信工程"
             android:id="@+id/communication"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

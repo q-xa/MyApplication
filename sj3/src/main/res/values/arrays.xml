@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="majors">
+        <item>网络工程</item>
+        <item>计算机科学与技术</item>
+        <item>通信工程</item>
+    </string-array>
+</resources>
