@@ -16,7 +16,8 @@ public class DBHelper extends SQLiteOpenHelper {
         sql+="username varchar(20),password varchar(20),";
         sql+="sex varchar(20),love varchar(20),";
         sql+="major varchar(20),banji varchar(20),";
-        sql+="selectdate varchar(20),jieshao varchar(20),";
+        sql+="selectdate varchar(20),jieshao varchar(300)";
+        sql+=")";
         db.execSQL(sql);
     }
     @Override

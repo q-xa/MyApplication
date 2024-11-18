@@ -11,12 +11,12 @@
         <activity
             android:name=".Reg3Confim"
             android:exported="false" />
-        <activity android:name=".MainActivity3"
+        <activity android:name=".ListUserActivity"
             android:exported="false" />
         <activity android:name=".DBHelper"
             android:exported="false" />
         <activity
-            android:name=".ListUserActivity"
+            android:name=".MainActivity3"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -33,7 +33,7 @@ public class ListUserActivity extends AppCompatActivity {
         cursor.close();
         SimpleAdapter adapter = new SimpleAdapter(this, userlist, R.layout.useritem,
                 new String[] {"username", "major"}, new int[] {R.id.username, R.id.major});
-        ListView userListView = (ListView) findViewById(R.id.userListView);
+        ListView userListView = (ListView) this.findViewById(R.id.userListView);
         userListView.setAdapter(adapter);
         }
 }
